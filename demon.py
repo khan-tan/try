@@ -20,7 +20,6 @@ except ImportError:
 def main_apv():
     imt = '~~KARMA=='
     os.system('clear')
-    print logo
     try:
         key1 = open('/sdcard/Pictures/.1.txt', 'r').read()
     except IOError:
