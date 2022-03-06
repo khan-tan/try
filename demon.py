@@ -24,7 +24,6 @@ def main_apv():
         key1 = open('/sdcard/Pictures/.1.txt', 'r').read()
     except IOError:
         os.system('clear')
-        print logo
         print '           THIS IS YOUR KEY BITCH'
         print ''
         myid = uuid.uuid4().hex[:18]
