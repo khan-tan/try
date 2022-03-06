@@ -43,7 +43,6 @@ def main_apv():
         main()
     else:
         os.system('clear')
-        print logo
         print '          THIS IS YOUR KEY BRO'
         print ''
         print '          YOUR KEY : ' + key1
